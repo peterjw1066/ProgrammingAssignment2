@@ -1,10 +1,11 @@
 ## makeCacheMatrix creates a matrix object.
-## cacheSolve takes the cached mtrix creaed by makeCacheMatrix and computes it's inverse.
+## cacheSolve takes the cached mtrix created by makeCacheMatrix and computes it's inverse.
 
 ## Creates a matrix object that can cache it's inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
-
+        m <- NULL
+        
 }
 
 
