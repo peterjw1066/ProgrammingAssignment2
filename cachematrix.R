@@ -1,4 +1,4 @@
-@@ 1,21 @@
+@@ 1,10 +1,21 @@
 -## [Put comments here that describe what your functions do]
 +## makeCacheMatrix creates a matrix object and calculates it's inverse.
 +## cacheSolve takes the cached matrix created by makeCacheMatrix, computes it's inverse
