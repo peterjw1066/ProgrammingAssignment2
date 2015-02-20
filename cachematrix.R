@@ -8,8 +8,8 @@
 +## Creates a matrix object that cache's it's inverse.
  
 +makeCacheMatrix <- function(x = matrix()) {
-+        myMatrix <<- x
-+        invMatrix <<- solve(x)
++        myMatrix <<- x          ## Caches the matrix.
++        invMatrix <<- solve(x)  ## Caches the inverse.
  }
  
 +## Computes the inverse of the matrix returned by makeCacheMatrix
@@ -19,6 +19,6 @@
 +
 +	if (x == myMatrix) {
 +		message("Getting cached data")
-+		return(invMatrix)
++		return(invMatrix)             ## Returns the cached inverse.
 +	}
  }
